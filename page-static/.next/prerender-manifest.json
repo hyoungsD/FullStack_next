@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "routes": {
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/10": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/10.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/11": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/11.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/4": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/5": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/5.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/6": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/6.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/7": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/7.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/8": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/8.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sale/9": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sale/[id]",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/9.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/sale/[id]": {
+      "routeRegex": "^/sale/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/[id].json",
+      "fallback": null,
+      "dataRouteRegex": "^/_next/data/eaoHSY_vGqTDN4JwuuFaE/sale/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "83c2e55838f9f734d46f4ad49386853d",
+    "previewModeSigningKey": "f93048651b3f425536a5e92c6dc0ced52bdf5bfaed6d28bb32370cc90a261a62",
+    "previewModeEncryptionKey": "8467af14a37595ff56c35e6b3ef08444c905e5b7d6e82bc4ebd61c8cf6c30937"
+  }
+}
