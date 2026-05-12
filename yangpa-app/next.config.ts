@@ -12,6 +12,13 @@ const nextConfig: NextConfig = {
         hostname: 'styangpa.blob.core.windows.net'
       }
     ]
+  },
+
+  // cache hit 확인
+  logging: {
+    fetches: {
+      fullUrl: true,
+    }
   }
 };
 
