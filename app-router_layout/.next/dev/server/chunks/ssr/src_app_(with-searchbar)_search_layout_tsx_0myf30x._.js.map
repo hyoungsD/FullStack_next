@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/%28with-searchbar%29/search/layout.tsx"],"sourcesContent":["export default function Layout({children}: {children: React.ReactNode}) {\n  return (\n    <div>\n      <header><h1>헤더입니다</h1></header>\n      <main>\n        {children}\n      </main>\n      <footer>푸터입니다</footer>\n    </div>\n  );\n}\n\n"],"names":["Layout","children"],"mappings":";;;;;;AAAe,SAASA,OAAO,EAACC,QAAQ,EAA8B;IACpE,qBACE,8OAAC;;0BACC,8OAAC;0BAAO,cAAA,8OAAC;8BAAG;;;;;;;;;;;0BACZ,8OAAC;0BACEA;;;;;;0BAEH,8OAAC;0BAAO;;;;;;;;;;;;AAGd"}}]
+}

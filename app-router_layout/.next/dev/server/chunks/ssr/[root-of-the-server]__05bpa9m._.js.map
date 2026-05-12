@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/sale/%5BId%5D/page.tsx"],"sourcesContent":["\n\nexport default async function Page({\n  params,\n}: {\n  params: Promise<{ Id:string }>;\n}) {\n  \n  const { Id } = await params;\n\n  return (\n    <div>\n      <h1>{Id}번 상품 상세페이지</h1>\n    </div>\n  );\n}"],"names":["Page","params","Id"],"mappings":";;;;;;AAEe,eAAeA,KAAK,EACjCC,MAAM,EAGP;IAEC,MAAM,EAAEC,EAAE,EAAE,GAAG,MAAMD;IAErB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAIC;gBAAG;;;;;;;;;;;;AAGd"}}]
+}

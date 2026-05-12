@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/%28with-searchbar%29/search/page.tsx"],"sourcesContent":["export default async function Page({\n  searchParams\n}: {\n  searchParams: Promise<{q?:string}>\n}) {\n  // console.log('props', props);  // params, searchParams가 Promise로 나옴\n\n\n  const { q } = await searchParams;\n\n\n  return (\n    <div>\n      <h1>검색어: {q}의 페이지입니다.</h1>\n    </div>\n  );\n}"],"names":["Page","searchParams","q"],"mappings":";;;;;;AAAe,eAAeA,KAAK,EACjCC,YAAY,EAGb;IACC,qEAAqE;IAGrE,MAAM,EAAEC,CAAC,EAAE,GAAG,MAAMD;IAGpB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAG;gBAAMC;gBAAE;;;;;;;;;;;;AAGlB"}}]
+}

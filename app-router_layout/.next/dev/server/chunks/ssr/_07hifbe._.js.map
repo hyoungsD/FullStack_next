@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/%28with-searchbar%29/page.tsx"],"sourcesContent":["\n// 서버컴포넌트 -> 클라이언트 컴포넌트로 변경\n// 버튼 에러 사라짐!!!\n// 클라이언트 컴포넌트 안에 서버 컴포넌트 사용 불가\n'use client';\n\n\n\n// index.tsx 대신 page.tsx\nexport default function Home() {\n  console.log('인덱스페이지 컴포넌트');\n\n  return (\n    <div>\n      <h1>인덱스페이지입니다</h1>\n      <button onClick={() => console.log('클릭')}>클릭</button> \n      {/* onClick 에러!!!! : Event handlers cannot be passed to Client Component props */}\n      {/* 서버사이드에서 인터렉션 못함 -> 클라이언트사이드로 변경해야 함 */}\n    </div>\n  );\n}\n"],"names":["Home","console","log","onClick"],"mappings":";;;;;AACA,2BAA2B;AAC3B,eAAe;AACf,8BAA8B;AAC9B;;AAKe,SAASA;IACtBC,QAAQC,GAAG,CAAC;IAEZ,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBAAOC,SAAS,IAAMF,QAAQC,GAAG,CAAC;0BAAO;;;;;;;;;;;;AAKhD"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

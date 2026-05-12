@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/YOUNGS/FullStack/08NextJs/app-router/src/app/%28with-searchbar%29/layout.tsx"],"sourcesContent":["export default function Layout({children}: {children: React.ReactNode}) {\n  return (\n    <div>\n      <input type=\"text\" placeholder=\"검색어를 입력하시오\" />\n      {children}\n    </div>\n  );\n}"],"names":["Layout","children","type","placeholder"],"mappings":";;;;;;AAAe,SAASA,OAAO,EAACC,QAAQ,EAA8B;IACpE,qBACE,8OAAC;;0BACC,8OAAC;gBAAMC,MAAK;gBAAOC,aAAY;;;;;;YAC9BF;;;;;;;AAGP"}}]
+}
